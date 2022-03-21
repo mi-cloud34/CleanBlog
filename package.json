@@ -1,0 +1,30 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "clean blog ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mi-cloud34/CleanBlog.git"
+  },
+  "keywords": [
+    "photo",
+    "blog"
+  ],
+  "author": "Mesut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mi-cloud34/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/mi-cloud34/CleanBlog#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
