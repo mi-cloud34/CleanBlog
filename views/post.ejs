@@ -32,9 +32,8 @@
     </div>
     <div class="clearfix">
 
-      <a class="btn btn-danger float-right" href="/posts/<%= post._id %>?_method=DELETE"
-         >Delete Post</a>
-      <a class="btn btn-warning float-right text-white mr-3" href="/posts/edit/<%= post._id %>">Update Post</a>
+      <a class="btn btn-danger float-right" href="/posts/<%= post._id %>?_method=DELETE"onclick="return confirm('ARE YOU SURE?')">Delete Post</a>
+     <a class="btn btn-warning float-right text-white mr-3" href="/posts/edit_post/<%= post._id %>">Update Post</a>
 
     </div>
   </div>
